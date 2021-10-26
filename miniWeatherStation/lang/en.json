@@ -1,0 +1,13 @@
+{
+    "title": "mini weather station",
+    "btntext1": "Inside",
+    "Louverbox": "The louver box is a protective device for the installation of temperature measuring instruments, mainly to prevent sunlight and ground reflection radiation. Usually placed on an open grass.",
+    "support": "Bracket: Make the louver box 1.5 meters above the ground. Because this high temperature change is relatively stable, at the same time, this height is the general range of human activities, which can truly reflect the temperature of the air. The height of the shutters around the world is the same.",
+    "shutter": "Blinds: Generally maintain a 45° tilt to protect the instrument from precipitation and strong winds, and to properly ventilate the sensing part of the instrument to truly sense changes in ambient air temperature and humidity.",
+    "Dial": "Hair hygrometer: is the basic instrument for recording the daily variation of relative humidity of air",
+    "thermometerHigh": "Maximum temperature gauge: measure the highest temperature within a certain period of time",
+    "thermometerLow": "Minimum temperature gauge: measure the lowest temperature in a certain period of time",
+    "thermometerdry": "Dry and wet bulb thermometer: The left dry bulb thermometer and the wet bulb thermometer on the right are placed side by side for testing temperature and humidity.",
+    "thermometermoist": "Dry and wet bulb thermometer: The left dry bulb thermometer and the wet bulb thermometer on the right are placed side by side for testing temperature and humidity.",
+    "thermometersupport": "Thermometer bracket: Installed in a louver for placing a thermometer."
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html><html xmlns=http://www.w3.org/1999/xhtml><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=screen-orientation content=landscape><meta name=x5-orientation content=landscape><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><meta name=renderer content=webkit><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>向量加法的三角形、四边形法则</title><style>.loadingBg {
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background: #424156;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+      }
+      .loadingBg:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      .loadingIco {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .ico_animation_base {
+        opacity: 0;
+        animation:loading_ani 2.60s linear  infinite;
+      }
+
+      .ico-1{
+        animation-delay: 0.5s;
+      }
+
+      .ico-2{
+         animation-delay: 0.74s;
+       }
+       .ico-3{
+         animation-delay: 0.98s;
+       }
+       .ico-4{
+
+         animation-delay: 1.22s;
+       }
+       .ico-5{
+         animation-delay: 1.46s;
+       }
+       .ico-6{
+         animation-delay: 1.7s;
+       }
+
+      /* 转圈 */
+      @keyframes loading_ani{
+        0% , 35.5%, 100%{
+          opacity: 0;
+        }
+        17% {
+          opacity: 1;
+        }
+      }
+      /*@-webkit-keyframes loading_ani{
+        0% {
+          opacity: 0;
+        }
+        62.5% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }*/</style><link rel="shortcut icon" href=./huohua.ico><link href="css/VectorOfRule.css?st=d4208bd971f72cb4ed18d694a5cd9f4e" rel=stylesheet></head><body style="padding: 0;margin: 0;"><div id=app></div><div id=loading class=loadingBg><svg class=loadingIco xmlns=http://www.w3.org/2000/svg viewBox="0 0 63.44 56.84"><defs><style>.cls-1{fill:#fe5702;fill-rule:evenodd}</style></defs><title></title><g id=图层_2 data-name="图层 2"><g id=图层_1-2 data-name="图层 1"><path class="cls-1 ico_animation_base ico-1" d=M3.95,34.95a1.33,1.33,0,0,0-1.67.62A20.11,20.11,0,0,1,1,37.6c-.25.35-.5.69-.74,1a1.33,1.33,0,0,0,.77,2.13A50.36,50.36,0,0,1,18.34,48a51.22,51.22,0,0,1,9.4,8,.34.34,0,0,0,.53-.4,58.42,58.42,0,0,0-10.8-12.64A43,43,0,0,0,3.95,34.95Z /><path class="cls-1 ico_animation_base ico-2" d=M9.09,33.52a1.54,1.54,0,0,1-.16-2.62l.89-.65c.74-.56,1.42-1.13,2-1.68a1.52,1.52,0,0,1,2.06,0A54.53,54.53,0,0,1,21.18,37,54.56,54.56,0,0,1,27.06,47.7a.33.33,0,0,1-.57.34,56.87,56.87,0,0,0-8.41-8.5A56.87,56.87,0,0,0,9.09,33.52Z /><path class="cls-1 ico_animation_base ico-3" d=M19.39,11.73a2.25,2.25,0,0,1,3.31,1.09,136.53,136.53,0,0,1,4.48,13.9,150.47,150.47,0,0,1,4.49,23.83.34.34,0,0,1-.64.16,130.91,130.91,0,0,0-11.87-21.5,120.71,120.71,0,0,0-7.61-10.09,2.25,2.25,0,0,1,.75-3.48c1.19-.57,2.41-1.2,3.67-1.9S18.31,12.41,19.39,11.73Z /><path class="cls-1 ico_animation_base ico-4" d=M26.9,2.24a1.92,1.92,0,0,1,2-2.23c1.8.13,3.73.2,5.77.2S38.42.13,40.12,0A1.8,1.8,0,0,1,42,2.15c-2.62,13.53-4.66,27.07-7.23,40.6a.34.34,0,0,1-.66,0Z /><path class="cls-1 ico_animation_base ico-5" d=M50.28,14.53A1.91,1.91,0,0,1,53,14.17q1.48,1.19,3.07,2.39t3.17,2.33a1.91,1.91,0,0,1,.22,2.94A97,97,0,0,0,45.13,39a78.22,78.22,0,0,0-7.62,14.71l-1.11,2.87a.34.34,0,0,1-.65-.12c0-7,1-15.49,6.1-27.28A75.82,75.82,0,0,1,50.28,14.53Z /><path class="cls-1 ico_animation_base ico-6" d=M57.38,32.57a1.52,1.52,0,0,1,2.31.33q.65,1,1.4,2.14c.67,1,1.35,1.87,2,2.7a1.5,1.5,0,0,1-.57,2.32A71.27,71.27,0,0,0,40.76,55a.33.33,0,0,1-.53-.39,75,75,0,0,1,8.86-13.14A93.94,93.94,0,0,1,57.38,32.57Z /></g></g></svg></div><script type=text/javascript src="js/manifest.js?a=6052d50a0afdf0254794"></script><script type=text/javascript src="js/VectorOfRule.js?a=9de63df041ae52780913"></script></body></html><script type=text/javascript>;
+    (function() {
+
+        handleAddListener('load', getTiming)
+
+        function handleAddListener(type, fn) {
+            if(window.addEventListener) {
+                window.addEventListener(type, fn)
+            } else {
+                window.attachEvent('on' + type, fn)
+            }
+        }
+
+        function getTiming() {
+            try {
+                var time = performance.timing;
+                var timingObj = {};
+
+                var loadTime = (time.loadEventEnd - time.loadEventStart) / 1000;
+
+                if(loadTime < 0) {
+                    setTimeout(function() {
+                        getTiming();
+                    }, 200);
+                    return;
+                }
+
+                timingObj['重定向时间'] = (time.redirectEnd - time.redirectStart) / 1000;
+                timingObj['DNS解析时间'] = (time.domainLookupEnd - time.domainLookupStart) / 1000;
+                timingObj['TCP完成握手时间'] = (time.connectEnd - time.connectStart) / 1000;
+                timingObj['HTTP请求响应完成时间'] = (time.responseEnd - time.requestStart) / 1000;
+                timingObj['DOM开始加载前所花费时间'] = (time.responseEnd - time.navigationStart) / 1000;
+                timingObj['DOM加载完成时间'] = (time.domComplete - time.domLoading) / 1000;
+                timingObj['DOM结构解析完成时间'] = (time.domInteractive - time.domLoading) / 1000;
+                timingObj['脚本加载时间'] = (time.domContentLoadedEventEnd - time.domContentLoadedEventStart) / 1000;
+                timingObj['onload事件时间'] = (time.loadEventEnd - time.loadEventStart) / 1000;
+                timingObj['页面完全加载时间'] = (timingObj['重定向时间'] + timingObj['DNS解析时间'] + timingObj['TCP完成握手时间'] + timingObj['HTTP请求响应完成时间'] + timingObj['DOM结构解析完成时间'] + timingObj['DOM加载完成时间']);
+
+                for(item in timingObj) {
+                    // console.log(item + ":" + timingObj[item] + '毫秒(ms)');
+                }
+
+                console.log(performance.timing);
+
+            } catch(e) {
+                console.log(timingObj)
+                console.log(performance.timing);
+            }
+        }
+    })();</script>

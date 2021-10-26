@@ -1,0 +1,15 @@
+{
+    "title": "Eight Planets in the Solar System",
+    "text": [
+        " Name: Mercury (Earth-like planet) <br />Sort from near to distant planet from the sun: First <br />Mass: The earth is about 20 times it <br />Volume: The earth is about 17.8 Times ",
+        " Name: Venus (Earth-like planet) <br />Sorting of planets from near to far from the sun: second <br />Mass: about 4/5 of the earth <br />Volume: about 6 / of the earth 7 ",
+        " Name: Earth <br />Sort from near to far planet from the sun: third <br />Mass: 1 <br />Volume: 1",
+        " Name: Mars (Earth-like planet) <br />Sort by planets from near to far from the sun: fourth <br />Mass: Earth is about 9 times its size <br />Volume: Earth is about 6.7 of it Times <br />Natural satellites: Phobos, Phobos ",
+        " Name: Jupiter (gaseous giant planet) <br />Sort from near to distant from the Sun: Fifth <br />Mass: 317.94 times the earth <br />Volume: 1316 times the earth <br />itself The largest satellite: Europa ",
+        " Name: Saturn (gaseous giant planet) <br />Sort from near to distant planet from the sun: sixth <br />Mass: 95.18 times the earth <br />Volume: 745 times the earth <br />itself The largest satellite: Titan ",
+        " Name: Uranus (gaseous distant planet) <br />Sort from near to distant planet from the sun: seventh <br />Mass: 14.63 times the earth <br />Volume: 65.2 times the earth",
+        " Name: Neptune (gaseous distant planet) <br />Sort from near to distant planet from the sun: eighth <br />Mass: 17.22 times the earth <br />Volume: 57.1 times the earth <br />Its largest satellite: Triton ",
+        " Name: Comet (circling around the sun) <br />Appearance: cloud-like (ice matter) <br />Composition: comet nucleus, comet, comet tail"
+    ],
+    "msg": "Please try to click the planet to see the details"
+}
